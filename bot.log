@@ -1,0 +1,887 @@
+Node.js version: v16.20.2
+Starting PrismBot...
+[33m[nodemon] 3.0.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new event: ready.js
+[WARNING] Started connecting to MongoDB...
+[SUCCESS] MongoDB is connected to the atlas!
+[WARNING] Started loading application commands... (this might take minutes!)
+[SUCCESS] Logged in as: PrismBot#8943
+[SUCCESS] Successfully loaded application commands to Discord API.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new event: ready.js
+[WARNING] Started connecting to MongoDB...
+[SUCCESS] MongoDB is connected to the atlas!
+[WARNING] Started loading application commands... (this might take minutes!)
+[SUCCESS] Logged in as: PrismBot#8943
+[SUCCESS] Successfully loaded application commands to Discord API.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new event: ready.js
+[WARNING] Started connecting to MongoDB...
+[SUCCESS] MongoDB is connected to the atlas!
+[WARNING] Started loading application commands... (this might take minutes!)
+[SUCCESS] Logged in as: PrismBot#8943
+[SUCCESS] Successfully loaded application commands to Discord API.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[WARNING] Unable to load the command ping.js due to missing 'structure#name' or/and 'run' properties.
+[INFO] Loaded new event: ready.js
+[WARNING] Started connecting to MongoDB...
+[SUCCESS] MongoDB is connected to the atlas!
+[WARNING] Started loading application commands... (this might take minutes!)
+[SUCCESS] Logged in as: PrismBot#8943
+[SUCCESS] Successfully loaded application commands to Discord API.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: ping.js
+[INFO] Loaded new event: ready.js
+[WARNING] Started connecting to MongoDB...
+[SUCCESS] MongoDB is connected to the atlas!
+[WARNING] Started loading application commands... (this might take minutes!)
+[SUCCESS] Logged in as: PrismBot#8943
+[SUCCESS] Successfully loaded application commands to Discord API.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: ping.js
+[WARNING] Unable to load the command prefix.js due to missing 'structure#name' or/and 'run' properties.
+[INFO] Loaded new event: ready.js
+[WARNING] Started connecting to MongoDB...
+[SUCCESS] MongoDB is connected to the atlas!
+[WARNING] Started loading application commands... (this might take minutes!)
+[SUCCESS] Logged in as: PrismBot#8943
+[SUCCESS] Successfully loaded application commands to Discord API.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: ping.js
+Unhandled Rejection at: Promise {
+  <rejected> Error: Cannot find module '../../../config'
+  Require stack:
+  - /home/prismbot/PrismBot/commands/prefix/Utility/prefix.js
+  - /home/prismbot/PrismBot/handlers/commands.js
+  - /home/prismbot/PrismBot/class/PrismBot.js
+  - /home/prismbot/PrismBot/index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+      at Module.require (node:internal/modules/cjs/loader:1100:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js:3:16)
+      at Module._compile (node:internal/modules/cjs/loader:1198:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+      at Module.load (node:internal/modules/cjs/loader:1076:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+      at Module.require (node:internal/modules/cjs/loader:1100:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js',
+      '/home/prismbot/PrismBot/handlers/commands.js',
+      '/home/prismbot/PrismBot/class/PrismBot.js',
+      '/home/prismbot/PrismBot/index.js'
+    ]
+  }
+} reason: Error: Cannot find module '../../../config'
+Require stack:
+- /home/prismbot/PrismBot/commands/prefix/Utility/prefix.js
+- /home/prismbot/PrismBot/handlers/commands.js
+- /home/prismbot/PrismBot/class/PrismBot.js
+- /home/prismbot/PrismBot/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js',
+    '/home/prismbot/PrismBot/handlers/commands.js',
+    '/home/prismbot/PrismBot/class/PrismBot.js',
+    '/home/prismbot/PrismBot/index.js'
+  ]
+}
+[2023-09-30T23:49:00.023Z] Unhandled promise rejection:
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: ping.js
+Unhandled Rejection at: Promise {
+  <rejected> Error: Cannot find module '../../../config'
+  Require stack:
+  - /home/prismbot/PrismBot/commands/prefix/Utility/prefix.js
+  - /home/prismbot/PrismBot/handlers/commands.js
+  - /home/prismbot/PrismBot/class/PrismBot.js
+  - /home/prismbot/PrismBot/index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+      at Module.require (node:internal/modules/cjs/loader:1100:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js:3:16)
+      at Module._compile (node:internal/modules/cjs/loader:1198:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+      at Module.load (node:internal/modules/cjs/loader:1076:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+      at Module.require (node:internal/modules/cjs/loader:1100:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js',
+      '/home/prismbot/PrismBot/handlers/commands.js',
+      '/home/prismbot/PrismBot/class/PrismBot.js',
+      '/home/prismbot/PrismBot/index.js'
+    ]
+  }
+} reason: Error: Cannot find module '../../../config'
+Require stack:
+- /home/prismbot/PrismBot/commands/prefix/Utility/prefix.js
+- /home/prismbot/PrismBot/handlers/commands.js
+- /home/prismbot/PrismBot/class/PrismBot.js
+- /home/prismbot/PrismBot/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js',
+    '/home/prismbot/PrismBot/handlers/commands.js',
+    '/home/prismbot/PrismBot/class/PrismBot.js',
+    '/home/prismbot/PrismBot/index.js'
+  ]
+}
+[2023-09-30T23:49:21.855Z] Unhandled promise rejection:
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: ping.js
+Unhandled Rejection at: Promise {
+  <rejected> Error: Cannot find module '../../../config'
+  Require stack:
+  - /home/prismbot/PrismBot/commands/prefix/Utility/prefix.js
+  - /home/prismbot/PrismBot/handlers/commands.js
+  - /home/prismbot/PrismBot/class/PrismBot.js
+  - /home/prismbot/PrismBot/index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+      at Module.require (node:internal/modules/cjs/loader:1100:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js:3:16)
+      at Module._compile (node:internal/modules/cjs/loader:1198:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+      at Module.load (node:internal/modules/cjs/loader:1076:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+      at Module.require (node:internal/modules/cjs/loader:1100:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js',
+      '/home/prismbot/PrismBot/handlers/commands.js',
+      '/home/prismbot/PrismBot/class/PrismBot.js',
+      '/home/prismbot/PrismBot/index.js'
+    ]
+  }
+} reason: Error: Cannot find module '../../../config'
+Require stack:
+- /home/prismbot/PrismBot/commands/prefix/Utility/prefix.js
+- /home/prismbot/PrismBot/handlers/commands.js
+- /home/prismbot/PrismBot/class/PrismBot.js
+- /home/prismbot/PrismBot/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js',
+    '/home/prismbot/PrismBot/handlers/commands.js',
+    '/home/prismbot/PrismBot/class/PrismBot.js',
+    '/home/prismbot/PrismBot/index.js'
+  ]
+}
+[2023-09-30T23:49:27.258Z] Unhandled promise rejection:
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: ping.js
+Unhandled Rejection at: Promise {
+  <rejected> Error: Cannot find module '../../config'
+  Require stack:
+  - /home/prismbot/PrismBot/commands/prefix/Utility/prefix.js
+  - /home/prismbot/PrismBot/handlers/commands.js
+  - /home/prismbot/PrismBot/class/PrismBot.js
+  - /home/prismbot/PrismBot/index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+      at Module.require (node:internal/modules/cjs/loader:1100:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js:3:16)
+      at Module._compile (node:internal/modules/cjs/loader:1198:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+      at Module.load (node:internal/modules/cjs/loader:1076:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+      at Module.require (node:internal/modules/cjs/loader:1100:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js',
+      '/home/prismbot/PrismBot/handlers/commands.js',
+      '/home/prismbot/PrismBot/class/PrismBot.js',
+      '/home/prismbot/PrismBot/index.js'
+    ]
+  }
+} reason: Error: Cannot find module '../../config'
+Require stack:
+- /home/prismbot/PrismBot/commands/prefix/Utility/prefix.js
+- /home/prismbot/PrismBot/handlers/commands.js
+- /home/prismbot/PrismBot/class/PrismBot.js
+- /home/prismbot/PrismBot/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js',
+    '/home/prismbot/PrismBot/handlers/commands.js',
+    '/home/prismbot/PrismBot/class/PrismBot.js',
+    '/home/prismbot/PrismBot/index.js'
+  ]
+}
+[2023-09-30T23:50:13.454Z] Unhandled promise rejection:
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: ping.js
+Unhandled Rejection at: Promise {
+  <rejected> Error: Cannot find module '../../../config'
+  Require stack:
+  - /home/prismbot/PrismBot/commands/prefix/Utility/prefix.js
+  - /home/prismbot/PrismBot/handlers/commands.js
+  - /home/prismbot/PrismBot/class/PrismBot.js
+  - /home/prismbot/PrismBot/index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+      at Module.require (node:internal/modules/cjs/loader:1100:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js:3:16)
+      at Module._compile (node:internal/modules/cjs/loader:1198:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+      at Module.load (node:internal/modules/cjs/loader:1076:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+      at Module.require (node:internal/modules/cjs/loader:1100:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js',
+      '/home/prismbot/PrismBot/handlers/commands.js',
+      '/home/prismbot/PrismBot/class/PrismBot.js',
+      '/home/prismbot/PrismBot/index.js'
+    ]
+  }
+} reason: Error: Cannot find module '../../../config'
+Require stack:
+- /home/prismbot/PrismBot/commands/prefix/Utility/prefix.js
+- /home/prismbot/PrismBot/handlers/commands.js
+- /home/prismbot/PrismBot/class/PrismBot.js
+- /home/prismbot/PrismBot/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js',
+    '/home/prismbot/PrismBot/handlers/commands.js',
+    '/home/prismbot/PrismBot/class/PrismBot.js',
+    '/home/prismbot/PrismBot/index.js'
+  ]
+}
+[2023-09-30T23:50:21.953Z] Unhandled promise rejection:
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: ping.js
+Unhandled Rejection at: Promise {
+  <rejected> Error: Cannot find module '../../../config'
+  Require stack:
+  - /home/prismbot/PrismBot/commands/prefix/Utility/prefix.js
+  - /home/prismbot/PrismBot/handlers/commands.js
+  - /home/prismbot/PrismBot/class/PrismBot.js
+  - /home/prismbot/PrismBot/index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+      at Module.require (node:internal/modules/cjs/loader:1100:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js:3:16)
+      at Module._compile (node:internal/modules/cjs/loader:1198:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+      at Module.load (node:internal/modules/cjs/loader:1076:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+      at Module.require (node:internal/modules/cjs/loader:1100:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js',
+      '/home/prismbot/PrismBot/handlers/commands.js',
+      '/home/prismbot/PrismBot/class/PrismBot.js',
+      '/home/prismbot/PrismBot/index.js'
+    ]
+  }
+} reason: Error: Cannot find module '../../../config'
+Require stack:
+- /home/prismbot/PrismBot/commands/prefix/Utility/prefix.js
+- /home/prismbot/PrismBot/handlers/commands.js
+- /home/prismbot/PrismBot/class/PrismBot.js
+- /home/prismbot/PrismBot/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/prismbot/PrismBot/commands/prefix/Utility/prefix.js',
+    '/home/prismbot/PrismBot/handlers/commands.js',
+    '/home/prismbot/PrismBot/class/PrismBot.js',
+    '/home/prismbot/PrismBot/index.js'
+  ]
+}
+[2023-09-30T23:53:11.443Z] Unhandled promise rejection:
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+node:internal/modules/cjs/loader:1031
+  throw err;
+  ^
+
+Error: Cannot find module '../config/config'
+Require stack:
+- /home/prismbot/PrismBot/class/PrismBot.js
+- /home/prismbot/PrismBot/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/prismbot/PrismBot/class/PrismBot.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/prismbot/PrismBot/class/PrismBot.js',
+    '/home/prismbot/PrismBot/index.js'
+  ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: ping.js
+[INFO] Loaded new command: prefix.js
+[INFO] Loaded new event: ready.js
+[WARNING] Started connecting to MongoDB...
+[SUCCESS] MongoDB is connected to the atlas!
+[WARNING] Started loading application commands... (this might take minutes!)
+[SUCCESS] Logged in as: PrismBot#8943
+[SUCCESS] Successfully loaded application commands to Discord API.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: ping.js
+[INFO] Loaded new command: prefix.js
+[INFO] Loaded new event: ready.js
+[INFO] Loaded new event: components.js
+[INFO] Loaded new event: interactionCreate.js
+[INFO] Loaded new event: messageCreate.js
+[WARNING] Started connecting to MongoDB...
+[SUCCESS] MongoDB is connected to the atlas!
+[WARNING] Started loading application commands... (this might take minutes!)
+[SUCCESS] Logged in as: PrismBot#8943
+[SUCCESS] Successfully loaded application commands to Discord API.
+ TEST
+ TEST
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: ping.js
+[INFO] Loaded new command: prefix.js
+[INFO] Loaded new event: ready.js
+[INFO] Loaded new event: components.js
+[INFO] Loaded new event: interactionCreate.js
+[INFO] Loaded new event: messageCreate.js
+[WARNING] Started connecting to MongoDB...
+[SUCCESS] MongoDB is connected to the atlas!
+[WARNING] Started loading application commands... (this might take minutes!)
+[SUCCESS] Logged in as: PrismBot#8943
+[SUCCESS] Successfully loaded application commands to Discord API.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+Unhandled Rejection at: Promise {
+  <rejected> Error: ENOTDIR: not a directory, scandir './commands/music/play.js'
+      at readdirSync (node:fs:1438:3)
+      at module.exports (/home/prismbot/PrismBot/handlers/commands.js:12:32)
+      at PrismBot.start (/home/prismbot/PrismBot/class/PrismBot.js:47:9)
+      at Object.<anonymous> (/home/prismbot/PrismBot/index.js:12:8)
+      at Module._compile (node:internal/modules/cjs/loader:1198:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+      at Module.load (node:internal/modules/cjs/loader:1076:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+      at node:internal/main/run_main_module:22:47 {
+    errno: -20,
+    syscall: 'scandir',
+    code: 'ENOTDIR',
+    path: './commands/music/play.js'
+  }
+} reason: Error: ENOTDIR: not a directory, scandir './commands/music/play.js'
+    at readdirSync (node:fs:1438:3)
+    at module.exports (/home/prismbot/PrismBot/handlers/commands.js:12:32)
+    at PrismBot.start (/home/prismbot/PrismBot/class/PrismBot.js:47:9)
+    at Object.<anonymous> (/home/prismbot/PrismBot/index.js:12:8)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:22:47 {
+  errno: -20,
+  syscall: 'scandir',
+  code: 'ENOTDIR',
+  path: './commands/music/play.js'
+}
+[2023-10-01T00:00:23.518Z] Unhandled promise rejection:
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+Unhandled Rejection at: Promise {
+  <rejected> Error: ENOTDIR: not a directory, scandir './commands/music/play.js'
+      at readdirSync (node:fs:1438:3)
+      at module.exports (/home/prismbot/PrismBot/handlers/commands.js:12:32)
+      at PrismBot.start (/home/prismbot/PrismBot/class/PrismBot.js:47:9)
+      at Object.<anonymous> (/home/prismbot/PrismBot/index.js:12:8)
+      at Module._compile (node:internal/modules/cjs/loader:1198:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+      at Module.load (node:internal/modules/cjs/loader:1076:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+      at node:internal/main/run_main_module:22:47 {
+    errno: -20,
+    syscall: 'scandir',
+    code: 'ENOTDIR',
+    path: './commands/music/play.js'
+  }
+} reason: Error: ENOTDIR: not a directory, scandir './commands/music/play.js'
+    at readdirSync (node:fs:1438:3)
+    at module.exports (/home/prismbot/PrismBot/handlers/commands.js:12:32)
+    at PrismBot.start (/home/prismbot/PrismBot/class/PrismBot.js:47:9)
+    at Object.<anonymous> (/home/prismbot/PrismBot/index.js:12:8)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:22:47 {
+  errno: -20,
+  syscall: 'scandir',
+  code: 'ENOTDIR',
+  path: './commands/music/play.js'
+}
+[2023-10-01T00:01:18.046Z] Unhandled promise rejection:
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: ping.js
+[INFO] Loaded new command: prefix.js
+Unhandled Rejection at: Promise {
+  <rejected> Error: Cannot find module '@discordjs/voice'
+  Require stack:
+  - /home/prismbot/PrismBot/commands/prefix/music/play.js
+  - /home/prismbot/PrismBot/handlers/commands.js
+  - /home/prismbot/PrismBot/class/PrismBot.js
+  - /home/prismbot/PrismBot/index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+      at Module.require (node:internal/modules/cjs/loader:1100:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/music/play.js:3:101)
+      at Module._compile (node:internal/modules/cjs/loader:1198:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+      at Module.load (node:internal/modules/cjs/loader:1076:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+      at Module.require (node:internal/modules/cjs/loader:1100:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/prismbot/PrismBot/commands/prefix/music/play.js',
+      '/home/prismbot/PrismBot/handlers/commands.js',
+      '/home/prismbot/PrismBot/class/PrismBot.js',
+      '/home/prismbot/PrismBot/index.js'
+    ]
+  }
+} reason: Error: Cannot find module '@discordjs/voice'
+Require stack:
+- /home/prismbot/PrismBot/commands/prefix/music/play.js
+- /home/prismbot/PrismBot/handlers/commands.js
+- /home/prismbot/PrismBot/class/PrismBot.js
+- /home/prismbot/PrismBot/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/music/play.js:3:101)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/prismbot/PrismBot/commands/prefix/music/play.js',
+    '/home/prismbot/PrismBot/handlers/commands.js',
+    '/home/prismbot/PrismBot/class/PrismBot.js',
+    '/home/prismbot/PrismBot/index.js'
+  ]
+}
+[2023-10-01T00:02:53.589Z] Unhandled promise rejection:
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+Unhandled Rejection at: Promise {
+  <rejected> Error: Cannot find module '@discordjs/voice'
+  Require stack:
+  - /home/prismbot/PrismBot/commands/prefix/Music/play.js
+  - /home/prismbot/PrismBot/handlers/commands.js
+  - /home/prismbot/PrismBot/class/PrismBot.js
+  - /home/prismbot/PrismBot/index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+      at Module.require (node:internal/modules/cjs/loader:1100:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Music/play.js:3:101)
+      at Module._compile (node:internal/modules/cjs/loader:1198:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+      at Module.load (node:internal/modules/cjs/loader:1076:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+      at Module.require (node:internal/modules/cjs/loader:1100:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/prismbot/PrismBot/commands/prefix/Music/play.js',
+      '/home/prismbot/PrismBot/handlers/commands.js',
+      '/home/prismbot/PrismBot/class/PrismBot.js',
+      '/home/prismbot/PrismBot/index.js'
+    ]
+  }
+} reason: Error: Cannot find module '@discordjs/voice'
+Require stack:
+- /home/prismbot/PrismBot/commands/prefix/Music/play.js
+- /home/prismbot/PrismBot/handlers/commands.js
+- /home/prismbot/PrismBot/class/PrismBot.js
+- /home/prismbot/PrismBot/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Music/play.js:3:101)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/prismbot/PrismBot/commands/prefix/Music/play.js',
+    '/home/prismbot/PrismBot/handlers/commands.js',
+    '/home/prismbot/PrismBot/class/PrismBot.js',
+    '/home/prismbot/PrismBot/index.js'
+  ]
+}
+[2023-10-01T00:03:05.901Z] Unhandled promise rejection:
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+Unhandled Rejection at: Promise {
+  <rejected> Error: Cannot find module '@discordjs/voice'
+  Require stack:
+  - /home/prismbot/PrismBot/commands/prefix/Music/play.js
+  - /home/prismbot/PrismBot/handlers/commands.js
+  - /home/prismbot/PrismBot/class/PrismBot.js
+  - /home/prismbot/PrismBot/index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+      at Module.require (node:internal/modules/cjs/loader:1100:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Music/play.js:3:101)
+      at Module._compile (node:internal/modules/cjs/loader:1198:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+      at Module.load (node:internal/modules/cjs/loader:1076:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+      at Module.require (node:internal/modules/cjs/loader:1100:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/prismbot/PrismBot/commands/prefix/Music/play.js',
+      '/home/prismbot/PrismBot/handlers/commands.js',
+      '/home/prismbot/PrismBot/class/PrismBot.js',
+      '/home/prismbot/PrismBot/index.js'
+    ]
+  }
+} reason: Error: Cannot find module '@discordjs/voice'
+Require stack:
+- /home/prismbot/PrismBot/commands/prefix/Music/play.js
+- /home/prismbot/PrismBot/handlers/commands.js
+- /home/prismbot/PrismBot/class/PrismBot.js
+- /home/prismbot/PrismBot/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Music/play.js:3:101)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/prismbot/PrismBot/commands/prefix/Music/play.js',
+    '/home/prismbot/PrismBot/handlers/commands.js',
+    '/home/prismbot/PrismBot/class/PrismBot.js',
+    '/home/prismbot/PrismBot/index.js'
+  ]
+}
+[2023-10-01T00:03:15.028Z] Unhandled promise rejection:
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+Unhandled Rejection at: Promise {
+  <rejected> Error: Cannot find module 'ytdl-core'
+  Require stack:
+  - /home/prismbot/PrismBot/commands/prefix/Music/play.js
+  - /home/prismbot/PrismBot/handlers/commands.js
+  - /home/prismbot/PrismBot/class/PrismBot.js
+  - /home/prismbot/PrismBot/index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+      at Module.require (node:internal/modules/cjs/loader:1100:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Music/play.js:4:14)
+      at Module._compile (node:internal/modules/cjs/loader:1198:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+      at Module.load (node:internal/modules/cjs/loader:1076:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+      at Module.require (node:internal/modules/cjs/loader:1100:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/prismbot/PrismBot/commands/prefix/Music/play.js',
+      '/home/prismbot/PrismBot/handlers/commands.js',
+      '/home/prismbot/PrismBot/class/PrismBot.js',
+      '/home/prismbot/PrismBot/index.js'
+    ]
+  }
+} reason: Error: Cannot find module 'ytdl-core'
+Require stack:
+- /home/prismbot/PrismBot/commands/prefix/Music/play.js
+- /home/prismbot/PrismBot/handlers/commands.js
+- /home/prismbot/PrismBot/class/PrismBot.js
+- /home/prismbot/PrismBot/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/prismbot/PrismBot/commands/prefix/Music/play.js:4:14)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/prismbot/PrismBot/commands/prefix/Music/play.js',
+    '/home/prismbot/PrismBot/handlers/commands.js',
+    '/home/prismbot/PrismBot/class/PrismBot.js',
+    '/home/prismbot/PrismBot/index.js'
+  ]
+}
+[2023-10-01T00:03:55.074Z] Unhandled promise rejection:
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: play.js
+[INFO] Loaded new command: ping.js
+[INFO] Loaded new command: prefix.js
+[INFO] Loaded new event: ready.js
+[INFO] Loaded new event: components.js
+[INFO] Loaded new event: interactionCreate.js
+[INFO] Loaded new event: messageCreate.js
+[WARNING] Started connecting to MongoDB...
+[SUCCESS] MongoDB is connected to the atlas!
+[WARNING] Started loading application commands... (this might take minutes!)
+[SUCCESS] Logged in as: PrismBot#8943
+[SUCCESS] Successfully loaded application commands to Discord API.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: play.js
+[INFO] Loaded new command: ping.js
+[INFO] Loaded new command: prefix.js
+[INFO] Loaded new event: ready.js
+[INFO] Loaded new event: components.js
+[INFO] Loaded new event: interactionCreate.js
+[INFO] Loaded new event: messageCreate.js
+[WARNING] Started connecting to MongoDB...
+[SUCCESS] MongoDB is connected to the atlas!
+[WARNING] Started loading application commands... (this might take minutes!)
+[SUCCESS] Logged in as: PrismBot#8943
+[SUCCESS] Successfully loaded application commands to Discord API.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: play.js
+[INFO] Loaded new command: ping.js
+[INFO] Loaded new command: prefix.js
+[INFO] Loaded new event: ready.js
+[INFO] Loaded new event: components.js
+[INFO] Loaded new event: interactionCreate.js
+[INFO] Loaded new event: messageCreate.js
+[WARNING] Started connecting to MongoDB...
+[SUCCESS] MongoDB is connected to the atlas!
+[WARNING] Started loading application commands... (this might take minutes!)
+[SUCCESS] Logged in as: PrismBot#8943
+[SUCCESS] Successfully loaded application commands to Discord API.
+[2023-10-01T00:06:27.386Z] Uncaught exception:
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] still waiting for 1 sub-process to finish...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: play.js
+[INFO] Loaded new command: ping.js
+[INFO] Loaded new command: prefix.js
+[INFO] Loaded new event: ready.js
+[INFO] Loaded new event: components.js
+[INFO] Loaded new event: interactionCreate.js
+[INFO] Loaded new event: messageCreate.js
+[WARNING] Started connecting to MongoDB...
+[SUCCESS] MongoDB is connected to the atlas!
+[WARNING] Started loading application commands... (this might take minutes!)
+[SUCCESS] Logged in as: PrismBot#8943
+[SUCCESS] Successfully loaded application commands to Discord API.
+Uncaught Exception: Error: Cannot play audio as no valid encryption package is installed.
+- Install sodium, libsodium-wrappers, or tweetnacl.
+- Use the generateDependencyReport() function for more information.
+
+    at Object.fallbackError (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:220:9)
+    at Networking.encryptOpusPacket (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:884:17)
+    at Networking.createAudioPacket (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:868:69)
+    at Networking.prepareAudioPacket (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:792:33)
+    at VoiceConnection.prepareAudioPacket (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:1917:29)
+    at AudioPlayer._preparePacket (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:1317:18)
+    at AudioPlayer._stepPrepare (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:1287:14)
+    at prepareNextAudioFrame (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:141:29)
+    at audioCycleStep (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:130:3)
+    at Timeout._onTimeout (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:137:45)
+Stack Trace: Error: Cannot play audio as no valid encryption package is installed.
+- Install sodium, libsodium-wrappers, or tweetnacl.
+- Use the generateDependencyReport() function for more information.
+
+    at Object.fallbackError (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:220:9)
+    at Networking.encryptOpusPacket (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:884:17)
+    at Networking.createAudioPacket (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:868:69)
+    at Networking.prepareAudioPacket (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:792:33)
+    at VoiceConnection.prepareAudioPacket (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:1917:29)
+    at AudioPlayer._preparePacket (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:1317:18)
+    at AudioPlayer._stepPrepare (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:1287:14)
+    at prepareNextAudioFrame (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:141:29)
+    at audioCycleStep (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:130:3)
+    at Timeout._onTimeout (/home/prismbot/PrismBot/node_modules/@discordjs/voice/dist/index.js:137:45)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: play.js
+[INFO] Loaded new command: ping.js
+[INFO] Loaded new command: prefix.js
+[INFO] Loaded new event: ready.js
+[INFO] Loaded new event: components.js
+[INFO] Loaded new event: interactionCreate.js
+[INFO] Loaded new event: messageCreate.js
+[WARNING] Started connecting to MongoDB...
+[SUCCESS] MongoDB is connected to the atlas!
+[WARNING] Started loading application commands... (this might take minutes!)
+[SUCCESS] Logged in as: PrismBot#8943
+[SUCCESS] Successfully loaded application commands to Discord API.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./`[39m
+[INFO] Loaded new command: test.js
+[INFO] Loaded new command: play.js
+[INFO] Loaded new command: ping.js
+[INFO] Loaded new command: prefix.js
+[INFO] Loaded new event: ready.js
+[INFO] Loaded new event: components.js
+[INFO] Loaded new event: interactionCreate.js
+[INFO] Loaded new event: messageCreate.js
+[WARNING] Started connecting to MongoDB...
+[SUCCESS] MongoDB is connected to the atlas!
+[WARNING] Started loading application commands... (this might take minutes!)
+[SUCCESS] Logged in as: PrismBot#8943
+[SUCCESS] Successfully loaded application commands to Discord API.
